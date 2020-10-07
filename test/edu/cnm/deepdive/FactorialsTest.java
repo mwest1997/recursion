@@ -36,5 +36,5 @@ class FactorialsTest {
   void computeRecursive_exception() {
     assertThrows(IllegalArgumentException.class, () -> Factorials.computeRecursive(-1));
   }
-  
+
 }
